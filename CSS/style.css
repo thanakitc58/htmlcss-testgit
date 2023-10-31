@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #333;
+    padding: 1rem;
+} 
+
+.nav-con{
+    display:flex;    
+    justify-content: space-between;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;  /*เอาจุด list ออก*/
+  
+    align-items: center; /*จัดให้อยู่ตรงกลางแกนแนวตั้ง*/
+}
+
+.menu li a{
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.backgroundcolor{
+    background-color: rgb(224, 221, 221);
+}
+
+.banner-con{
+    display: flex;
+}
+    
+.banner-info{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.banner-info h1{
+    font-size: 2rem;
+}
+
+.banner-info p{
+   margin: 1rem 0;
+}
+
+.banner-info .banner-button{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.banner-img{
+    width: 100%;
+    margin: 1rem;
+}
+
+main H1{
+    margin-top: 2rem;
+}
+
+.main-info{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+
+}
+
+.main-info h3{
+    margin: 1rem 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main-info p{
+    margin-bottom: 1rem;
+   
+}
+
+.main-info img{
+    width: 100%;
+    
+}
+
+.main-info .main-button{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.footter{
+    background-color: #333;
+    margin-top: 3rem;
+    color: white;
+}
+.footter-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;   
+}
+
+.footter-top-item{
+    margin: 2rem 0;
+}
+.footter-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+.footter-top-item-con .date{
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.25rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+.footter-top-item:nth-child(2) h3{  /*เข้าถึงคลาสตัวที่ 2 ใช้ nth-child*/
+    font-size: 18px;
+    color: white;
+}
+
+.footter-top-item p{
+    margin: 1rem 0;
+    color: white;
+    font-size: 14px;
+}
+
+.footter-bottom{
+    padding: 1rem;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* .footter-bottom p{
+    font-size: 18px;
+
+} */
